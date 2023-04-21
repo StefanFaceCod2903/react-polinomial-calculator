@@ -1,0 +1,11 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-control:focus {
+  border-color: black;
+  box-shadow: 0 0 0 0.2rem lightgray;
+} 
