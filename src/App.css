@@ -9,3 +9,12 @@
   border-color: black;
   box-shadow: 0 0 0 0.2rem lightgray;
 } 
+
+.svg-container { 
+	display: inline-block;
+	position: relative;
+	width: 50%;
+  padding-bottom: 5%;
+	vertical-align: middle; 
+	overflow: hidden; 
+}
