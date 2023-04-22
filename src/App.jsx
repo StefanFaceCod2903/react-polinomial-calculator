@@ -255,13 +255,14 @@ function App() {
   </div>
   <Result/>
   <div class="container-fluid">
-    <div class="row gx-1">
-      <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 0)}>Add</button>
-      <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 1)}>Subtract</button>
-      <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 2)}>Multiply</button>
-      <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 3)}>Divide</button>
-      <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 4)}>Drivate</button>
-      <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 5)}>Integrate</button></div>
+      <div class="row">
+        <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 0)}>Add</button>
+        <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 1)}>Subtract</button>
+        <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 2)}>Multiply</button>
+        <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 3)}>Divide</button>
+        <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 4)}>Drivate</button>
+        <button class="col-6 col-md-4 btn btn-outline-dark btn-block rounded-0" onClick={(e) => handleClick(e, 5)}>Integrate</button>
+      </div>
   </div>
   </form>
   </>);
